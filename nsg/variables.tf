@@ -15,5 +15,5 @@ variable "security_rule" {
 
 variable "nsg_name" {
   type = string
-  default = ""
+  default = "nsg"
 }
