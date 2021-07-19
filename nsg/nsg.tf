@@ -1,5 +1,5 @@
 module "nsg" {
-  source = "../ResourceGroup"
+  source = "github.com/RajanikanthGitHub/azurerm-modules//ResourceGroup"
 }
 
 # creating network security group

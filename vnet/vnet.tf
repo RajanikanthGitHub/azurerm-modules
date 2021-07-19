@@ -1,5 +1,5 @@
 module "rsg" {
-  source = "../ResourceGroup"
+  source = "github.com/RajanikanthGitHub/azurerm-modules//ResourceGroup"
 }
 
 # creating virtual network
