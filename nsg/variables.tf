@@ -13,11 +13,6 @@ variable "security_rule" {
   }))
 }
 
-variable "project_name" {
-  type = string
-  default = ""
-}
-
 variable "nsg_name" {
   type = string
   default = ""

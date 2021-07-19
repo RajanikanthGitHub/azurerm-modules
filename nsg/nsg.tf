@@ -4,7 +4,7 @@ module "nsg" {
 
 # creating network security group
 resource "azurerm_network_security_group" "test-nsg" {
-  name                = "${module.nsg.project_name}-${var.nsg_name}"
+  name                = "${module.nsg.project_name_output}-${var.nsg_name}"
   location            = module.nsg.Resource_group_location
   resource_group_name = module.nsg.Resource_group_name
 }

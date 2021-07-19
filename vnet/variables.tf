@@ -1,8 +1,3 @@
-variable "project_name" {
-  type    = string
-  default = "demo"
-}
-
 variable "vnet_name" {
   type    = string
   default = "vnet"
